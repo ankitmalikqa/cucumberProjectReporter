@@ -1,14 +1,14 @@
 Feature: Login Functionality Feature
-Scenario Outline: 
+
+Scenario: Check Scen1
     Given I open the application
-    When I enter username as <username>
-    And I enter password as <password>
+    When I enter username as "ankitmalik"
+    And I enter password as "malikankit"
     Then login successful
+    
+Scenario: Check Scen2
+    Given I open the application
+    When I enter username as "ankitmalik"
+    And I enter password as "malikankit1"
+    Then login successful    
 
-Examples:
-
-| username | password | 
-
-| ankitmalik95365      | 9536597182      | 
-
-| ankitmalik95365     | 95365971    | 
